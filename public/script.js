@@ -48,7 +48,8 @@ ws.onmessage = (event) => {
     }
 };
 
-// Mettre à jour la liste des utilisateurs
+
+// Fonction pour mettre à jour la liste des utilisateurs
 function updateUsersList(users) {
     userList.innerHTML = '';
     users.forEach(user => {
